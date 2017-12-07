@@ -1,0 +1,205 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\BalanceExample.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_BALANCE_DIALOG DIALOGEX 0, 0, 288, 330
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "BalanceExample"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    RTEXT           "Server:",IDC_STATIC,0,12,54,10
+    EDITTEXT        IDC_EDIT_SERVER,60,10,80,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Login",IDC_LOGIN,146,10,50,14
+    PUSHBUTTON      "Logout",IDC_LOGOUT,200,10,50,14
+    RTEXT           "Login:",IDC_STATIC,0,29,54,10
+    EDITTEXT        IDC_EDIT_LOGIN,60,27,80,12,ES_AUTOHSCROLL
+    RTEXT           "Password:",IDC_STATIC,0,46,54,10
+    EDITTEXT        IDC_EDIT_PASSWORD,60,44,80,12,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,20,64,248,1
+    RTEXT           "User:",IDC_STATIC,0,72,54,10
+    EDITTEXT        IDC_USER,60,70,80,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Get Info",IDC_GET_USER,146,70,50,14
+    CTEXT           "",IDC_STATIC_USER,20,89,248,10
+    CTEXT           "",IDC_STATIC_BALANCE,20,106,248,10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,20,124,248,1
+    RTEXT           "Operation:",IDC_STATIC,0,132,54,10
+    COMBOBOX        IDC_COMBO_OPERATION,60,130,80,185,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Amount:",IDC_STATIC,0,149,54,10
+    EDITTEXT        IDC_EDIT_AMOUNT,60,147,80,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Deposit",IDC_BUTTON_DEPOSIT,146,147,50,14
+    PUSHBUTTON      "Withdrawal",IDC_BUTTON_WITHDRAWAL,200,147,50,14
+    RTEXT           "Comment:",IDC_STATIC,0,166,54,10
+    EDITTEXT        IDC_EDIT_COMMENT,60,164,190,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,20,184,248,1
+    RTEXT           "Period:",IDC_STATIC,0,192,54,10
+    CONTROL         "",IDC_DATETIMEPICKER_FROM,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,60,190,60,14
+    CTEXT           "-",IDC_STATIC,121,193,9,10
+    CONTROL         "",IDC_DATETIMEPICKER_TO,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,132,190,60,14
+    PUSHBUTTON      "Get History",IDC_BUTTON_GETDEALS,202,190,50,14
+    CONTROL         "",IDC_LIST_DEAL,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,20,210,248,110
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000004b0"
+        BEGIN
+            VALUE "Comments", "http://www.metaquotes.net"
+            VALUE "CompanyName", "MetaQuotes Software Corp."
+            VALUE "FileDescription", "BalanceExample"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "BalanceExample.exe"
+            VALUE "LegalCopyright", "© 2001-2017, MetaQuotes Software Corp."
+            VALUE "OriginalFilename", "BalanceExample.exe"
+            VALUE "ProductName", "Balance Example"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_BALANCE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 135
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\BalanceExample.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    /////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\BalanceExample.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

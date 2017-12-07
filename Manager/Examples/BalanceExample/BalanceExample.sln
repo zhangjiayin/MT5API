@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{1C83DDDC-C91E-4901-A83C-B85A03808EF0}") = "BalanceExample", "BalanceExample.vcxproj", "{6637B604-E069-4AC8-A7EE-0A8C9DF925BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6637B604-E069-4AC8-A7EE-0A8C9DF925BE}.Debug|x64.ActiveCfg = Debug|x64
+		{6637B604-E069-4AC8-A7EE-0A8C9DF925BE}.Debug|x64.Build.0 = Debug|x64
+		{6637B604-E069-4AC8-A7EE-0A8C9DF925BE}.Debug|x86.ActiveCfg = Debug|Win32
+		{6637B604-E069-4AC8-A7EE-0A8C9DF925BE}.Debug|x86.Build.0 = Debug|Win32
+		{6637B604-E069-4AC8-A7EE-0A8C9DF925BE}.Release|x64.ActiveCfg = Release|x64
+		{6637B604-E069-4AC8-A7EE-0A8C9DF925BE}.Release|x64.Build.0 = Release|x64
+		{6637B604-E069-4AC8-A7EE-0A8C9DF925BE}.Release|x86.ActiveCfg = Release|Win32
+		{6637B604-E069-4AC8-A7EE-0A8C9DF925BE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

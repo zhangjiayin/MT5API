@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{DFB419DC-A2E3-46EF-8CCE-500BE5AD5BB4}") = "SimpleDealer", "SimpleDealer.vcxproj", "{EC3817A7-A41D-4C02-BED5-4269B46CCB4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC3817A7-A41D-4C02-BED5-4269B46CCB4D}.Debug|x64.ActiveCfg = Debug|x64
+		{EC3817A7-A41D-4C02-BED5-4269B46CCB4D}.Debug|x64.Build.0 = Debug|x64
+		{EC3817A7-A41D-4C02-BED5-4269B46CCB4D}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC3817A7-A41D-4C02-BED5-4269B46CCB4D}.Debug|x86.Build.0 = Debug|Win32
+		{EC3817A7-A41D-4C02-BED5-4269B46CCB4D}.Release|x64.ActiveCfg = Release|x64
+		{EC3817A7-A41D-4C02-BED5-4269B46CCB4D}.Release|x64.Build.0 = Release|x64
+		{EC3817A7-A41D-4C02-BED5-4269B46CCB4D}.Release|x86.ActiveCfg = Release|Win32
+		{EC3817A7-A41D-4C02-BED5-4269B46CCB4D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
